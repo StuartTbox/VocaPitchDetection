@@ -16,8 +16,6 @@
 #include <iostream>
 #include <fstream>
 
-#include "notes.hpp"
-
 namespace q = cycfi::q;
 using namespace q::literals;
 
@@ -29,12 +27,12 @@ void process(
    ////////////////////////////////////////////////////////////////////////////
    // Prepare output file
 
-   std::ofstream csv("/Users/stuart/Documents/Projects/Atlas/AudioLibraries/Q/test/results/test2.csv");
+   std::ofstream csv("/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/testing_results/Actual2.csv");
 
    ////////////////////////////////////////////////////////////////////////////
    // Read audio file
 
-   q::wav_reader src{"/Users/stuart/Documents/Projects/Atlas/AudioLibraries/Q/test/audio_files/StuartTest.wav"};
+   q::wav_reader src{"/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/audiofiles_fortesting/test2.wav"};
    std::uint32_t const sps = src.sps();
 
    std::vector<float> in(src.length());

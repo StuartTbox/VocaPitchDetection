@@ -477,3 +477,6 @@ OPTION(PA_BUILD_EXAMPLES "Include example projects" OFF)
 IF(PA_BUILD_EXAMPLES)
   SUBDIRS(examples)
 ENDIF()
+
+
+target_link_libraries(portaudio_static)
