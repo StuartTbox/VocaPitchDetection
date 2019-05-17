@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/src/voca_pitch_detection.cpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/support/literals.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/support/base.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/infra/include/infra/support.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/detail/fast_math.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/support/frequency.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/support/value.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/support/decibel.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/pitch/pitch_detector.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/fx/moving_average.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/utility/ring_buffer.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/detail/init_store.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/fx/median.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/pitch/period_detector.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/utility/bitset.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/utility/zero_crossing.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/infra/include/infra/assert.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/utility/bitstream_acf.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/detail/count_bits.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/fx/feature_detection.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/fx/envelope.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/include/q_io/audio_file.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/infra/include/infra/iterator_range.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/fx/lowpass.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/fx/biquad.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/fx/dynamic.hpp \
+  /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include/q/fx/waveshaper.hpp

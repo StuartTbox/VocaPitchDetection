@@ -1,0 +1,1698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B62D1A218E4DE9BD123F67 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 821DE7BB6363480589BFC0F2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7CB02A607B0C4960A3EFDC0D /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		9565428EBC3948F8AA9CC342 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1423EB119AF04E1DB5681CD0 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				08F824A5EF5046DAB54C3843 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		CC16148EA68E49A5971BE8C9 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2AD2DFF3218D443CAF6FE0D7 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				48F04E31E5914DE8B7C5DFFE /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				CF1EEF4839B14563AB4F773F /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D8F1144A099C48B4B74E0304 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B6589B9C727E4BA391788BE4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D276C7293B43453090EADA38 /* CMake Rules */,
+			);
+			dependencies = (
+				EFD7FF714B8B43689FD45095 /* PBXTargetDependency */,
+				1484EA8A31B74F96AB9CCAA5 /* PBXTargetDependency */,
+				AD6500C0B4C94F80A175F0F1 /* PBXTargetDependency */,
+				8566477532F341CE8B95BD3F /* PBXTargetDependency */,
+				F3B6852A0396438E8850575C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		06252876F8A14A5D91A77BA0 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/os/unix/pa_unix_hostapis.c */ = {isa = PBXBuildFile; fileRef = 51AD3039E52A4E6D98185A23 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/os/unix/pa_unix_hostapis.c */; };
+		0AC6CCA4C4844FEBB3BE4D64 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9B5788FE580A40B2B8539A0F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/CMakeLists.txt */; };
+		0DF2F36DB5AA493DB59F732E /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_stream.h */ = {isa = PBXBuildFile; fileRef = 026B2B8C54E54217BD1FA7AD /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_stream.h */; };
+		0F75DD40D8AB4AC0B37D7433 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_converters.c */ = {isa = PBXBuildFile; fileRef = C6CFB7482A4F4CCAAC1D9AEA /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_converters.c */; };
+		28365F50138240E59DE9CBC1 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/pmmac.c */ = {isa = PBXBuildFile; fileRef = 9DD92ED7DA134701949EB635 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/pmmac.c */; };
+		2B487C0FC3A1456A88D774F8 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_cpuload.c */ = {isa = PBXBuildFile; fileRef = 805CCC5E75DD400F98ACBE09 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_cpuload.c */; };
+		311225A81D2D41D2AD20245D /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_trace.h */ = {isa = PBXBuildFile; fileRef = 52B9D8F4643E4AE39F921FEA /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_trace.h */; };
+		32643E3CC6A04327BAB35AE6 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4DD1E7B8115842AB9768A017 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/CMakeLists.txt */; };
+		35108C8A05F7468A8C521C11 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_utilities.c */ = {isa = PBXBuildFile; fileRef = 9628143B3DD148E397DA5D72 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_utilities.c */; };
+		3A4257C6700B4A939FB4C0B5 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_device.cpp */ = {isa = PBXBuildFile; fileRef = 78769519CD6248F7AD9708DF /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_device.cpp */; };
+		3DD12FAC68774B69BC5FA448 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_dither.h */ = {isa = PBXBuildFile; fileRef = 331BDBB1A3074F5AA0F5D50F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_dither.h */; };
+		3F645B5204684CCB9F922682 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_memorybarrier.h */ = {isa = PBXBuildFile; fileRef = 697390CCAF7C44A0AEA5D331 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_memorybarrier.h */; };
+		43F011EFA72847919BF26F1D /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/pmmacosxcm.c */ = {isa = PBXBuildFile; fileRef = 1EACBE6E8D0B40FAB1160722 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/pmmacosxcm.c */; };
+		450FBBFD6F904CF3856740A8 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5643AECED3074DCC8C18BA77 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/src/CMakeLists.txt */; };
+		4B83FAE979F147F9A36A837F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3E1065E7D14445F88D3F33F0 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/CMakeLists.txt */; };
+		4FC035CA813A4ABDA64A3BC1 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/porttime/porttime.c */ = {isa = PBXBuildFile; fileRef = D3A7241695AC4641A3B59711 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/porttime/porttime.c */; };
+		5A283D39BB684A9AAD2A5678 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/finddefault.c */ = {isa = PBXBuildFile; fileRef = 88ABE0A404934CD797F118DB /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/finddefault.c */; };
+		5D1FDCAE96204A35A949CF21 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_blocking.c */ = {isa = PBXBuildFile; fileRef = B9A6A84C91684D0C9C740481 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_blocking.c */; };
+		5D2DCD6A2EB6447F85FF7186 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include/pa_mac_core.h */ = {isa = PBXBuildFile; fileRef = 585E41083DED4D45A7D7FA45 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include/pa_mac_core.h */; };
+		5E5550ABE40A495CB0E067AB /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_ringbuffer.c */ = {isa = PBXBuildFile; fileRef = 57FFC68A69594C9BAD81307F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_ringbuffer.c */; };
+		618B7A2909C74312A96BF29D /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core.c */ = {isa = PBXBuildFile; fileRef = FB5738AD507C4BC9878C92C8 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core.c */; };
+		65CB33EB337D42D1A76983EE /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_utilities.h */ = {isa = PBXBuildFile; fileRef = 6205CE0F8BE04B2C932582C2 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_utilities.h */; };
+		6AEE31EF894D49E79EF74ED4 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_front.c */ = {isa = PBXBuildFile; fileRef = 48960700EC744F6DBC7675DC /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_front.c */; };
+		6AFB0F21B8934E249E5F8562 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common/pmutil.c */ = {isa = PBXBuildFile; fileRef = 422A3FE7D23A49E69FF9F952 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common/pmutil.c */; };
+		7BC2A4139FE34C529D4A56A6 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common/portmidi.c */ = {isa = PBXBuildFile; fileRef = A9BDFA4D2FBC406984C8A177 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common/portmidi.c */; };
+		7F30D6C39BE24A80879218B1 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_allocation.c */ = {isa = PBXBuildFile; fileRef = 1F6F79C3805D445F87C6354A /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_allocation.c */; };
+		85B6E3EC16D54CD793C99644 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_util.h */ = {isa = PBXBuildFile; fileRef = 6D11DA89C8D046BEBB0A7C43 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_util.h */; };
+		872620AD0D61410AA17DECE2 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/os/unix/pa_unix_util.c */ = {isa = PBXBuildFile; fileRef = 495E6A3C74364B40AE2369AA /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/os/unix/pa_unix_util.c */; };
+		8D127CE45C324C77B8E66457 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include/portaudio.h */ = {isa = PBXBuildFile; fileRef = 3F5D876D78FF406F885935B4 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include/portaudio.h */; };
+		91069E828ED04A5390D08390 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_cpuload.h */ = {isa = PBXBuildFile; fileRef = 28868AE7910A44BC9A55292C /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_cpuload.h */; };
+		927818F5BF014C70ACAD9EB5 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/readbinaryplist.c */ = {isa = PBXBuildFile; fileRef = 22C63DFFEB294A0BB060602C /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/readbinaryplist.c */; };
+		9B013F41F40346F8AE68F11A /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_trace.c */ = {isa = PBXBuildFile; fileRef = CAD62846E09747059251595B /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_trace.c */; };
+		9EC5326232C5410B8C09BA8B /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_stream.cpp */ = {isa = PBXBuildFile; fileRef = E25E6F8728754B0AB55487AE /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_stream.cpp */; };
+		A009AD098D3F413DB475ADEB /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_blocking.h */ = {isa = PBXBuildFile; fileRef = AC74121F84CD439BA6B286FE /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_blocking.h */; };
+		A54C0A774EFB4F5D85A874F2 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_file.cpp */ = {isa = PBXBuildFile; fileRef = C3F5038E417B42EEBF575CBE /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_file.cpp */; };
+		A651FD633EB34BCCA94620F3 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_debugprint.h */ = {isa = PBXBuildFile; fileRef = 1B9A2A3FB3E34FEFA063F742 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_debugprint.h */; };
+		B230E1EF985E4716A04B4CFF /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_endianness.h */ = {isa = PBXBuildFile; fileRef = 0C5D870C573246D59E2A13DC /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_endianness.h */; };
+		B249CF7BC3BA4FB9866041C0 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/porttime/ptmacosx_mach.c */ = {isa = PBXBuildFile; fileRef = BD035C4EE7ED4271B00BDF94 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/porttime/ptmacosx_mach.c */; };
+		B3FCAB4CC3D44894BEC6654E /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_converters.h */ = {isa = PBXBuildFile; fileRef = 603859C976A44CD3B1F3CFDB /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_converters.h */; };
+		C86F1C65896645868EF02A68 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_stream.c */ = {isa = PBXBuildFile; fileRef = E8A8D8F9B12D42409BD469E8 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_stream.c */; };
+		CDBFC97315B14EF0B763EB1E /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_dither.c */ = {isa = PBXBuildFile; fileRef = 73C481D077D84AE39F5D641A /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_dither.c */; };
+		D9A235142BCA4CD697DB854B /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_debugprint.c */ = {isa = PBXBuildFile; fileRef = 2956F02E425D4A1A9DDBB2B8 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_debugprint.c */; };
+		DAAA04E3078D4B98956545B7 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/midi_stream.cpp */ = {isa = PBXBuildFile; fileRef = BFED6A3053204966AF4D59C2 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/midi_stream.cpp */; };
+		DD216F13586E4C2085984A72 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_types.h */ = {isa = PBXBuildFile; fileRef = 3E6FA34406B649CF868345D9 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_types.h */; };
+		DF0E5C22229240778334272F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/midi_device.cpp */ = {isa = PBXBuildFile; fileRef = 098062352D234DED95EB7FBF /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/midi_device.cpp */; };
+		DFE2AE75FD3F4528974BBC17 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_allocation.h */ = {isa = PBXBuildFile; fileRef = D8B8A5E65DCE4989AF3B0E09 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_allocation.h */; };
+		DFEA1B54084545158EFBF2B3 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_hostapi.h */ = {isa = PBXBuildFile; fileRef = 7A263BB0B0A5496D95D37D1C /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_hostapi.h */; };
+		E478ECC69E7247AAA7F6E43F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/src/voca_pitch_detection.cpp */ = {isa = PBXBuildFile; fileRef = E56A97E3B042481FB3B26B2F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/src/voca_pitch_detection.cpp */; };
+		E7BE8DDEE5834F18B4EAD420 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/skeleton/pa_hostapi_skeleton.c */ = {isa = PBXBuildFile; fileRef = 4F8B00970E26424D83C51A19 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/skeleton/pa_hostapi_skeleton.c */; };
+		E8CFC3AB4D704BA7A54E8572 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_process.h */ = {isa = PBXBuildFile; fileRef = 6931CAFA011848948D3E131E /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_process.h */; };
+		EEDA71ED70C046A9A530C97C /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_ringbuffer.h */ = {isa = PBXBuildFile; fileRef = 45C3847433C743C88B228E70 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_ringbuffer.h */; };
+		F0921E02CD314942B740058E /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_process.c */ = {isa = PBXBuildFile; fileRef = 19C2144FCF7D450DABE15D27 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_process.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1907B8AD5D374A2CA825CBC0 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		3FA169E995F94D2B984D5378 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		51B18ADC47B244D0AB705DBB /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F6E5B38779514148ABD270E5 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		10CE4A211EC042C984CE97B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8AE593A596447C8B025F583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B62D1A218E4DE9BD123F67;
+			remoteInfo = ZERO_CHECK;
+		};
+		5A9A0F70CE1E46A2A22166A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8AE593A596447C8B025F583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8305443F40C34CD9BEBBF537;
+			remoteInfo = portmidi;
+		};
+		69EE4BB5619C4472B6F15C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8AE593A596447C8B025F583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD16E2CD27F54ADDB44C4DB0;
+			remoteInfo = portaudio_static;
+		};
+		70EFB75479CE4574BD36E072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8AE593A596447C8B025F583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8305443F40C34CD9BEBBF537;
+			remoteInfo = portmidi;
+		};
+		71BC6D7E7A09443AB6AFD428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8AE593A596447C8B025F583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A8C50EF6A204D57A5E58926;
+			remoteInfo = libqio;
+		};
+		84F9C79BCAC2427689EA8F88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8AE593A596447C8B025F583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD16E2CD27F54ADDB44C4DB0;
+			remoteInfo = portaudio_static;
+		};
+		9C143C7927D048AAA506E911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8AE593A596447C8B025F583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD16E2CD27F54ADDB44C4DB0;
+			remoteInfo = portaudio_static;
+		};
+		BB1E01070D544039AAE83483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8AE593A596447C8B025F583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8305443F40C34CD9BEBBF537;
+			remoteInfo = portmidi;
+		};
+		CF707FC501D44809A7FBE1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8AE593A596447C8B025F583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8F1144A099C48B4B74E0304;
+			remoteInfo = ALL_BUILD;
+		};
+		D7188B6E65DC46E6A0C14F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8AE593A596447C8B025F583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58818976FE574D43A139FFDF;
+			remoteInfo = voca_pitch_detection;
+		};
+		E8F360519DE74E93AF039196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8AE593A596447C8B025F583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A8C50EF6A204D57A5E58926;
+			remoteInfo = libqio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026B2B8C54E54217BD1FA7AD /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_stream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_stream.h; path = q_io/external/portaudio/src/common/pa_stream.h; sourceTree = SOURCE_ROOT; };
+		098062352D234DED95EB7FBF /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/midi_device.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = midi_device.cpp; path = q_io/src/midi_device.cpp; sourceTree = SOURCE_ROOT; };
+		0C5D870C573246D59E2A13DC /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_endianness.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_endianness.h; path = q_io/external/portaudio/src/common/pa_endianness.h; sourceTree = SOURCE_ROOT; };
+		19C2144FCF7D450DABE15D27 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_process.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_process.c; path = q_io/external/portaudio/src/common/pa_process.c; sourceTree = SOURCE_ROOT; };
+		1B9A2A3FB3E34FEFA063F742 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_debugprint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_debugprint.h; path = q_io/external/portaudio/src/common/pa_debugprint.h; sourceTree = SOURCE_ROOT; };
+		1EACBE6E8D0B40FAB1160722 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/pmmacosxcm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pmmacosxcm.c; path = q_io/external/portmidi/pm_mac/pmmacosxcm.c; sourceTree = SOURCE_ROOT; };
+		1F6F79C3805D445F87C6354A /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_allocation.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_allocation.c; path = q_io/external/portaudio/src/common/pa_allocation.c; sourceTree = SOURCE_ROOT; };
+		22C63DFFEB294A0BB060602C /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/readbinaryplist.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = readbinaryplist.c; path = q_io/external/portmidi/pm_mac/readbinaryplist.c; sourceTree = SOURCE_ROOT; };
+		28868AE7910A44BC9A55292C /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_cpuload.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_cpuload.h; path = q_io/external/portaudio/src/common/pa_cpuload.h; sourceTree = SOURCE_ROOT; };
+		2956F02E425D4A1A9DDBB2B8 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_debugprint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_debugprint.c; path = q_io/external/portaudio/src/common/pa_debugprint.c; sourceTree = SOURCE_ROOT; };
+		331BDBB1A3074F5AA0F5D50F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_dither.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_dither.h; path = q_io/external/portaudio/src/common/pa_dither.h; sourceTree = SOURCE_ROOT; };
+		37E209586FCD4E6B9EE7C948 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3E1065E7D14445F88D3F33F0 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = q_io/external/portmidi/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3E6FA34406B649CF868345D9 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_types.h; path = q_io/external/portaudio/src/common/pa_types.h; sourceTree = SOURCE_ROOT; };
+		3F5D876D78FF406F885935B4 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include/portaudio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = portaudio.h; path = q_io/external/portaudio/include/portaudio.h; sourceTree = SOURCE_ROOT; };
+		4151E33A7E24469887273E5F /* portaudio_static */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libportaudio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		422A3FE7D23A49E69FF9F952 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common/pmutil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pmutil.c; path = q_io/external/portmidi/pm_common/pmutil.c; sourceTree = SOURCE_ROOT; };
+		45C3847433C743C88B228E70 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_ringbuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_ringbuffer.h; path = q_io/external/portaudio/src/common/pa_ringbuffer.h; sourceTree = SOURCE_ROOT; };
+		46C9C3CF2388415481867142 /* portmidi */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libportmidi.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		48960700EC744F6DBC7675DC /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_front.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_front.c; path = q_io/external/portaudio/src/common/pa_front.c; sourceTree = SOURCE_ROOT; };
+		495E6A3C74364B40AE2369AA /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/os/unix/pa_unix_util.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_unix_util.c; path = q_io/external/portaudio/src/os/unix/pa_unix_util.c; sourceTree = SOURCE_ROOT; };
+		4DD1E7B8115842AB9768A017 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = q_io/external/portaudio/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4F8B00970E26424D83C51A19 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/skeleton/pa_hostapi_skeleton.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_hostapi_skeleton.c; path = q_io/external/portaudio/src/hostapi/skeleton/pa_hostapi_skeleton.c; sourceTree = SOURCE_ROOT; };
+		51AD3039E52A4E6D98185A23 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/os/unix/pa_unix_hostapis.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_unix_hostapis.c; path = q_io/external/portaudio/src/os/unix/pa_unix_hostapis.c; sourceTree = SOURCE_ROOT; };
+		52B9D8F4643E4AE39F921FEA /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_trace.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_trace.h; path = q_io/external/portaudio/src/common/pa_trace.h; sourceTree = SOURCE_ROOT; };
+		5643AECED3074DCC8C18BA77 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		57FFC68A69594C9BAD81307F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_ringbuffer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_ringbuffer.c; path = q_io/external/portaudio/src/common/pa_ringbuffer.c; sourceTree = SOURCE_ROOT; };
+		585E41083DED4D45A7D7FA45 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include/pa_mac_core.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_mac_core.h; path = q_io/external/portaudio/include/pa_mac_core.h; sourceTree = SOURCE_ROOT; };
+		603859C976A44CD3B1F3CFDB /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_converters.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_converters.h; path = q_io/external/portaudio/src/common/pa_converters.h; sourceTree = SOURCE_ROOT; };
+		6205CE0F8BE04B2C932582C2 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_utilities.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_mac_core_utilities.h; path = q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_utilities.h; sourceTree = SOURCE_ROOT; };
+		6931CAFA011848948D3E131E /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_process.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_process.h; path = q_io/external/portaudio/src/common/pa_process.h; sourceTree = SOURCE_ROOT; };
+		697390CCAF7C44A0AEA5D331 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_memorybarrier.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_memorybarrier.h; path = q_io/external/portaudio/src/common/pa_memorybarrier.h; sourceTree = SOURCE_ROOT; };
+		6D11DA89C8D046BEBB0A7C43 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_util.h; path = q_io/external/portaudio/src/common/pa_util.h; sourceTree = SOURCE_ROOT; };
+		73C481D077D84AE39F5D641A /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_dither.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_dither.c; path = q_io/external/portaudio/src/common/pa_dither.c; sourceTree = SOURCE_ROOT; };
+		78769519CD6248F7AD9708DF /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_device.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = audio_device.cpp; path = q_io/src/audio_device.cpp; sourceTree = SOURCE_ROOT; };
+		7A263BB0B0A5496D95D37D1C /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_hostapi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_hostapi.h; path = q_io/external/portaudio/src/common/pa_hostapi.h; sourceTree = SOURCE_ROOT; };
+		805CCC5E75DD400F98ACBE09 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_cpuload.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_cpuload.c; path = q_io/external/portaudio/src/common/pa_cpuload.c; sourceTree = SOURCE_ROOT; };
+		82E2A0138FBE422F8C1F08E6 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = q_io/external/portaudio/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		88ABE0A404934CD797F118DB /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/finddefault.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = finddefault.c; path = q_io/external/portmidi/pm_mac/finddefault.c; sourceTree = SOURCE_ROOT; };
+		935403269DB84477B35FC82E /* voca_pitch_detection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = voca_pitch_detection; sourceTree = BUILT_PRODUCTS_DIR; };
+		9628143B3DD148E397DA5D72 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_utilities.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_mac_core_utilities.c; path = q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_utilities.c; sourceTree = SOURCE_ROOT; };
+		9B5788FE580A40B2B8539A0F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = q_io/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9DD92ED7DA134701949EB635 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/pmmac.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pmmac.c; path = q_io/external/portmidi/pm_mac/pmmac.c; sourceTree = SOURCE_ROOT; };
+		A9BDFA4D2FBC406984C8A177 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common/portmidi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = portmidi.c; path = q_io/external/portmidi/pm_common/portmidi.c; sourceTree = SOURCE_ROOT; };
+		AC74121F84CD439BA6B286FE /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_blocking.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_mac_core_blocking.h; path = q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_blocking.h; sourceTree = SOURCE_ROOT; };
+		ADA6FEEF95EE46A494F7432D /* libqio */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibqio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A6A84C91684D0C9C740481 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_blocking.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_mac_core_blocking.c; path = q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_blocking.c; sourceTree = SOURCE_ROOT; };
+		BD035C4EE7ED4271B00BDF94 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/porttime/ptmacosx_mach.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ptmacosx_mach.c; path = q_io/external/portmidi/porttime/ptmacosx_mach.c; sourceTree = SOURCE_ROOT; };
+		BFED6A3053204966AF4D59C2 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/midi_stream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = midi_stream.cpp; path = q_io/src/midi_stream.cpp; sourceTree = SOURCE_ROOT; };
+		C3F5038E417B42EEBF575CBE /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_file.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = audio_file.cpp; path = q_io/src/audio_file.cpp; sourceTree = SOURCE_ROOT; };
+		C6CFB7482A4F4CCAAC1D9AEA /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_converters.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_converters.c; path = q_io/external/portaudio/src/common/pa_converters.c; sourceTree = SOURCE_ROOT; };
+		CAD62846E09747059251595B /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_trace.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_trace.c; path = q_io/external/portaudio/src/common/pa_trace.c; sourceTree = SOURCE_ROOT; };
+		D3A7241695AC4641A3B59711 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/porttime/porttime.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = porttime.c; path = q_io/external/portmidi/porttime/porttime.c; sourceTree = SOURCE_ROOT; };
+		D8B8A5E65DCE4989AF3B0E09 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_allocation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pa_allocation.h; path = q_io/external/portaudio/src/common/pa_allocation.h; sourceTree = SOURCE_ROOT; };
+		E25E6F8728754B0AB55487AE /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_stream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = audio_stream.cpp; path = q_io/src/audio_stream.cpp; sourceTree = SOURCE_ROOT; };
+		E56A97E3B042481FB3B26B2F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/src/voca_pitch_detection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = voca_pitch_detection.cpp; path = src/voca_pitch_detection.cpp; sourceTree = SOURCE_ROOT; };
+		E8A8D8F9B12D42409BD469E8 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_stream.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_stream.c; path = q_io/external/portaudio/src/common/pa_stream.c; sourceTree = SOURCE_ROOT; };
+		FB5738AD507C4BC9878C92C8 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pa_mac_core.c; path = q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0DBE32CE7BF6463191170BAD /* voca_pitch_detection */ = {
+			isa = PBXGroup;
+			children = (
+				AEB99C7F61A844FCA6CB0DBD /* Source Files */,
+				5643AECED3074DCC8C18BA77 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/src/CMakeLists.txt */,
+			);
+			name = voca_pitch_detection;
+			sourceTree = "<group>";
+		};
+		3552838445044B5A8F82F02A = {
+			isa = PBXGroup;
+			children = (
+				8948F8767FA14828888F193C /* ALL_BUILD */,
+				39C6A853C7054578841FF497 /* libqio */,
+				9D15C8D777294958A15E920F /* uninstall */,
+				4066FCB68C5B4E43984D5E2A /* portaudio_static */,
+				E91C8E41F2A24DD4853653FA /* portmidi */,
+				0DBE32CE7BF6463191170BAD /* voca_pitch_detection */,
+				5251532B0D994936A0746817 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39C6A853C7054578841FF497 /* libqio */ = {
+			isa = PBXGroup;
+			children = (
+				B8A86EDDB215491E9D7498DF /* Source Files */,
+				9B5788FE580A40B2B8539A0F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/CMakeLists.txt */,
+			);
+			name = libqio;
+			sourceTree = "<group>";
+		};
+		4066FCB68C5B4E43984D5E2A /* portaudio_static */ = {
+			isa = PBXGroup;
+			children = (
+				E09B1B0957D74F29843113F9 /* hostapi */,
+				470C3FF3955B4223BC77D53A /* include */,
+				A7F85C043472419B86D7D73B /* common */,
+				F1E54DD624874B4E87520330 /* os */,
+				4DD1E7B8115842AB9768A017 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/CMakeLists.txt */,
+			);
+			name = portaudio_static;
+			sourceTree = "<group>";
+		};
+		470C3FF3955B4223BC77D53A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				585E41083DED4D45A7D7FA45 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include/pa_mac_core.h */,
+				3F5D876D78FF406F885935B4 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include/portaudio.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		488AE12EE2484B90ADAC7064 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5251532B0D994936A0746817 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA6FEEF95EE46A494F7432D /* libqio */,
+				4151E33A7E24469887273E5F /* portaudio_static */,
+				46C9C3CF2388415481867142 /* portmidi */,
+				935403269DB84477B35FC82E /* voca_pitch_detection */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8948F8767FA14828888F193C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				488AE12EE2484B90ADAC7064 /* CMake Rules */,
+				37E209586FCD4E6B9EE7C948 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9D15C8D777294958A15E920F /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				C913F80D845546AF99155BFA /* CMake Rules */,
+				82E2A0138FBE422F8C1F08E6 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		A7F85C043472419B86D7D73B /* common */ = {
+			isa = PBXGroup;
+			children = (
+				1F6F79C3805D445F87C6354A /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_allocation.c */,
+				D8B8A5E65DCE4989AF3B0E09 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_allocation.h */,
+				C6CFB7482A4F4CCAAC1D9AEA /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_converters.c */,
+				603859C976A44CD3B1F3CFDB /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_converters.h */,
+				805CCC5E75DD400F98ACBE09 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_cpuload.c */,
+				28868AE7910A44BC9A55292C /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_cpuload.h */,
+				2956F02E425D4A1A9DDBB2B8 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_debugprint.c */,
+				1B9A2A3FB3E34FEFA063F742 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_debugprint.h */,
+				73C481D077D84AE39F5D641A /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_dither.c */,
+				331BDBB1A3074F5AA0F5D50F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_dither.h */,
+				0C5D870C573246D59E2A13DC /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_endianness.h */,
+				48960700EC744F6DBC7675DC /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_front.c */,
+				7A263BB0B0A5496D95D37D1C /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_hostapi.h */,
+				697390CCAF7C44A0AEA5D331 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_memorybarrier.h */,
+				19C2144FCF7D450DABE15D27 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_process.c */,
+				6931CAFA011848948D3E131E /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_process.h */,
+				57FFC68A69594C9BAD81307F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_ringbuffer.c */,
+				45C3847433C743C88B228E70 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_ringbuffer.h */,
+				E8A8D8F9B12D42409BD469E8 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_stream.c */,
+				026B2B8C54E54217BD1FA7AD /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_stream.h */,
+				CAD62846E09747059251595B /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_trace.c */,
+				52B9D8F4643E4AE39F921FEA /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_trace.h */,
+				3E6FA34406B649CF868345D9 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_types.h */,
+				6D11DA89C8D046BEBB0A7C43 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_util.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		AC234CFA684048E381538F7A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				422A3FE7D23A49E69FF9F952 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common/pmutil.c */,
+				A9BDFA4D2FBC406984C8A177 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common/portmidi.c */,
+				88ABE0A404934CD797F118DB /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/finddefault.c */,
+				9DD92ED7DA134701949EB635 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/pmmac.c */,
+				1EACBE6E8D0B40FAB1160722 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/pmmacosxcm.c */,
+				22C63DFFEB294A0BB060602C /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/readbinaryplist.c */,
+				D3A7241695AC4641A3B59711 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/porttime/porttime.c */,
+				BD035C4EE7ED4271B00BDF94 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/porttime/ptmacosx_mach.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AEB99C7F61A844FCA6CB0DBD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E56A97E3B042481FB3B26B2F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/src/voca_pitch_detection.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B8A86EDDB215491E9D7498DF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				78769519CD6248F7AD9708DF /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_device.cpp */,
+				C3F5038E417B42EEBF575CBE /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_file.cpp */,
+				E25E6F8728754B0AB55487AE /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_stream.cpp */,
+				098062352D234DED95EB7FBF /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/midi_device.cpp */,
+				BFED6A3053204966AF4D59C2 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/midi_stream.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C913F80D845546AF99155BFA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D28AC60BDE8340FB8967E14F /* unix */ = {
+			isa = PBXGroup;
+			children = (
+				51AD3039E52A4E6D98185A23 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/os/unix/pa_unix_hostapis.c */,
+				495E6A3C74364B40AE2369AA /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/os/unix/pa_unix_util.c */,
+			);
+			name = unix;
+			sourceTree = "<group>";
+		};
+		DCE1FA57539C4C89B3229964 /* skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				4F8B00970E26424D83C51A19 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/skeleton/pa_hostapi_skeleton.c */,
+			);
+			name = skeleton;
+			sourceTree = "<group>";
+		};
+		E09B1B0957D74F29843113F9 /* hostapi */ = {
+			isa = PBXGroup;
+			children = (
+				EF7B536DBB654D598AED45F7 /* coreaudio */,
+				DCE1FA57539C4C89B3229964 /* skeleton */,
+			);
+			name = hostapi;
+			sourceTree = "<group>";
+		};
+		E91C8E41F2A24DD4853653FA /* portmidi */ = {
+			isa = PBXGroup;
+			children = (
+				AC234CFA684048E381538F7A /* Source Files */,
+				3E1065E7D14445F88D3F33F0 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/CMakeLists.txt */,
+			);
+			name = portmidi;
+			sourceTree = "<group>";
+		};
+		EF7B536DBB654D598AED45F7 /* coreaudio */ = {
+			isa = PBXGroup;
+			children = (
+				FB5738AD507C4BC9878C92C8 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core.c */,
+				B9A6A84C91684D0C9C740481 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_blocking.c */,
+				AC74121F84CD439BA6B286FE /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_blocking.h */,
+				9628143B3DD148E397DA5D72 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_utilities.c */,
+				6205CE0F8BE04B2C932582C2 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_utilities.h */,
+			);
+			name = coreaudio;
+			sourceTree = "<group>";
+		};
+		F1E54DD624874B4E87520330 /* os */ = {
+			isa = PBXGroup;
+			children = (
+				D28AC60BDE8340FB8967E14F /* unix */,
+			);
+			name = os;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58818976FE574D43A139FFDF /* voca_pitch_detection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5332D7F007B42698945D46E /* Build configuration list for PBXNativeTarget "voca_pitch_detection" */;
+			buildPhases = (
+				A24411A7FC024B73A15833EF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6F9A964497F4F5789FA80B0 /* PBXTargetDependency */,
+				28B9DB555F984385B024CA18 /* PBXTargetDependency */,
+				272FC71ED48744C295311520 /* PBXTargetDependency */,
+			);
+			name = voca_pitch_detection;
+			productName = voca_pitch_detection;
+			productReference = 935403269DB84477B35FC82E /* voca_pitch_detection */;
+			productType = "com.apple.product-type.tool";
+		};
+		8305443F40C34CD9BEBBF537 /* portmidi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F67BEF42CFD4100B715B7B5 /* Build configuration list for PBXNativeTarget "portmidi" */;
+			buildPhases = (
+				5D53908DDB08423E8F6EE0AE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = portmidi;
+			productName = portmidi;
+			productReference = 46C9C3CF2388415481867142 /* portmidi */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8A8C50EF6A204D57A5E58926 /* libqio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2F1E92F6FC44BEBBB8AC49 /* Build configuration list for PBXNativeTarget "libqio" */;
+			buildPhases = (
+				B5EF83228C0D49F9BB9AB3AC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AD1F1AC835C4FC5A06A3BA2 /* PBXTargetDependency */,
+				0824C1F9043B44C7AE46EE77 /* PBXTargetDependency */,
+			);
+			name = libqio;
+			productName = libqio;
+			productReference = ADA6FEEF95EE46A494F7432D /* libqio */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AD16E2CD27F54ADDB44C4DB0 /* portaudio_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1AF8502327463BA57E6A12 /* Build configuration list for PBXNativeTarget "portaudio_static" */;
+			buildPhases = (
+				8293311348974307B6B3E91B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = portaudio_static;
+			productName = portaudio_static;
+			productReference = 4151E33A7E24469887273E5F /* portaudio_static */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8AE593A596447C8B025F583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = DE363C5F808548398CE3D742 /* Build configuration list for PBXProject "Project" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				1907B8AD5D374A2CA825CBC0 /* Debug */,
+				F6E5B38779514148ABD270E5 /* Release */,
+				3FA169E995F94D2B984D5378 /* MinSizeRel */,
+				51B18ADC47B244D0AB705DBB /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3552838445044B5A8F82F02A;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				D8F1144A099C48B4B74E0304 /* ALL_BUILD */,
+				52B62D1A218E4DE9BD123F67 /* ZERO_CHECK */,
+				CC16148EA68E49A5971BE8C9 /* install */,
+				8A8C50EF6A204D57A5E58926 /* libqio */,
+				AD16E2CD27F54ADDB44C4DB0 /* portaudio_static */,
+				8305443F40C34CD9BEBBF537 /* portmidi */,
+				9565428EBC3948F8AA9CC342 /* uninstall */,
+				58818976FE574D43A139FFDF /* voca_pitch_detection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F824A5EF5046DAB54C3843 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio -f /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		1595CA827BE643CFA7E6D590 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		40BE6070DE8E4AC3876DE34B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		48F04E31E5914DE8B7C5DFFE /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build -f /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		7CB02A607B0C4960A3EFDC0D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build -f /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		CD9EF85183C343D8A7F9A9E1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D276C7293B43453090EADA38 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build -f /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E400F0A43725420AADC85763 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D53908DDB08423E8F6EE0AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFB0F21B8934E249E5F8562 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common/pmutil.c */,
+				7BC2A4139FE34C529D4A56A6 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common/portmidi.c */,
+				5A283D39BB684A9AAD2A5678 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/finddefault.c */,
+				28365F50138240E59DE9CBC1 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/pmmac.c */,
+				43F011EFA72847919BF26F1D /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/pmmacosxcm.c */,
+				927818F5BF014C70ACAD9EB5 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac/readbinaryplist.c */,
+				4FC035CA813A4ABDA64A3BC1 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/porttime/porttime.c */,
+				B249CF7BC3BA4FB9866041C0 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/porttime/ptmacosx_mach.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8293311348974307B6B3E91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F30D6C39BE24A80879218B1 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_allocation.c */,
+				0F75DD40D8AB4AC0B37D7433 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_converters.c */,
+				2B487C0FC3A1456A88D774F8 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_cpuload.c */,
+				D9A235142BCA4CD697DB854B /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_debugprint.c */,
+				CDBFC97315B14EF0B763EB1E /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_dither.c */,
+				6AEE31EF894D49E79EF74ED4 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_front.c */,
+				F0921E02CD314942B740058E /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_process.c */,
+				5E5550ABE40A495CB0E067AB /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_ringbuffer.c */,
+				C86F1C65896645868EF02A68 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_stream.c */,
+				9B013F41F40346F8AE68F11A /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common/pa_trace.c */,
+				618B7A2909C74312A96BF29D /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core.c */,
+				5D1FDCAE96204A35A949CF21 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_blocking.c */,
+				35108C8A05F7468A8C521C11 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/coreaudio/pa_mac_core_utilities.c */,
+				E7BE8DDEE5834F18B4EAD420 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/hostapi/skeleton/pa_hostapi_skeleton.c */,
+				06252876F8A14A5D91A77BA0 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/os/unix/pa_unix_hostapis.c */,
+				872620AD0D61410AA17DECE2 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/os/unix/pa_unix_util.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24411A7FC024B73A15833EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E478ECC69E7247AAA7F6E43F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/src/voca_pitch_detection.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EF83228C0D49F9BB9AB3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4257C6700B4A939FB4C0B5 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_device.cpp */,
+				A54C0A774EFB4F5D85A874F2 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_file.cpp */,
+				9EC5326232C5410B8C09BA8B /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/audio_stream.cpp */,
+				DF0E5C22229240778334272F /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/midi_device.cpp */,
+				DAAA04E3078D4B98956545B7 /* /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/src/midi_stream.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0824C1F9043B44C7AE46EE77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8305443F40C34CD9BEBBF537 /* portmidi */;
+			targetProxy = 70EFB75479CE4574BD36E072 /* PBXContainerItemProxy */;
+		};
+		1484EA8A31B74F96AB9CCAA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD16E2CD27F54ADDB44C4DB0 /* portaudio_static */;
+			targetProxy = 69EE4BB5619C4472B6F15C98 /* PBXContainerItemProxy */;
+		};
+		272FC71ED48744C295311520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8305443F40C34CD9BEBBF537 /* portmidi */;
+			targetProxy = 5A9A0F70CE1E46A2A22166A2 /* PBXContainerItemProxy */;
+		};
+		28B9DB555F984385B024CA18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD16E2CD27F54ADDB44C4DB0 /* portaudio_static */;
+			targetProxy = 84F9C79BCAC2427689EA8F88 /* PBXContainerItemProxy */;
+		};
+		6AD1F1AC835C4FC5A06A3BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD16E2CD27F54ADDB44C4DB0 /* portaudio_static */;
+			targetProxy = 9C143C7927D048AAA506E911 /* PBXContainerItemProxy */;
+		};
+		8566477532F341CE8B95BD3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58818976FE574D43A139FFDF /* voca_pitch_detection */;
+			targetProxy = D7188B6E65DC46E6A0C14F54 /* PBXContainerItemProxy */;
+		};
+		AD6500C0B4C94F80A175F0F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8305443F40C34CD9BEBBF537 /* portmidi */;
+			targetProxy = BB1E01070D544039AAE83483 /* PBXContainerItemProxy */;
+		};
+		B6F9A964497F4F5789FA80B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A8C50EF6A204D57A5E58926 /* libqio */;
+			targetProxy = E8F360519DE74E93AF039196 /* PBXContainerItemProxy */;
+		};
+		CF1EEF4839B14563AB4F773F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8F1144A099C48B4B74E0304 /* ALL_BUILD */;
+			targetProxy = CF707FC501D44809A7FBE1A6 /* PBXContainerItemProxy */;
+		};
+		EFD7FF714B8B43689FD45095 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A8C50EF6A204D57A5E58926 /* libqio */;
+			targetProxy = 71BC6D7E7A09443AB6AFD428 /* PBXContainerItemProxy */;
+		};
+		F3B6852A0396438E8850575C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52B62D1A218E4DE9BD123F67 /* ZERO_CHECK */;
+			targetProxy = 10CE4A211EC042C984CE97B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		005E7A17D76747D4A3857EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/build;
+			};
+			name = Release;
+		};
+		0218CF8CAAFD41B6B15BD9EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PA_USE_COREAUDIO,PA_LITTLE_ENDIAN);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/os/unix,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = portaudio;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		02D5BABCC249477A90FEEB8F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/porttime,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG -Wno-deprecated-declarations  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = portmidi;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0932138A218B48AA92003E5C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0A9F4FE81057439780756310 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/infra/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-ftemplate-backtrace-limit=0     -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names   /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/MinSizeRel/liblibqio.a   /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portmidi/MinSizeRel/libportmidi.a -framework CoreFoundation -framework CoreAudio -framework CoreMIDI -framework Carbon /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio/MinSizeRel/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework Carbon -lm -lpthread";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = voca_pitch_detection;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		155A4D0624F24A30A73C9DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		17A338AD09CD4940BBE5AAA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1B7F2193B1EF4E8C9B2F8BE5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1C4F158EB9E04559BD03D889 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/infra/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-ftemplate-backtrace-limit=0        -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libqio;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1E4ABE9FEB1C480A910D2ABD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/build;
+			};
+			name = MinSizeRel;
+		};
+		237B81BE005F4DD893967F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/infra/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-ftemplate-backtrace-limit=0     -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libqio;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2A68CB2AF7D846E192BB463D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/infra/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-ftemplate-backtrace-limit=0        -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names   /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/RelWithDebInfo/liblibqio.a   /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portmidi/RelWithDebInfo/libportmidi.a -framework CoreFoundation -framework CoreAudio -framework CoreMIDI -framework Carbon /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio/RelWithDebInfo/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework Carbon -lm -lpthread";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = voca_pitch_detection;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		37F85CCF379B4905B0DCCFFB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/infra/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-ftemplate-backtrace-limit=0     -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libqio;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3A51F268C26F45AEAE659C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/build;
+			};
+			name = Debug;
+		};
+		45CBFE9937A148F1B5DAF5C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/porttime,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations    -Wno-deprecated-declarations  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = portmidi;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4B3637E405604B7FB36CDA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/infra/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-ftemplate-backtrace-limit=0    '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libqio;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		57FDEE3E2DB74DA19DF18B83 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5D7FD4E18068478FB2C88219 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5FD4645D4A754014AE2419FD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		653E31158AA14D468134B7DA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PA_USE_COREAUDIO,PA_LITTLE_ENDIAN);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/os/unix,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = portaudio;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6D2E7D38E5004721B7D790BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6DB591913AEB4551881FE9ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		84B205F8D48F4C98A10CB5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		92D0FF44E77C43FFA80EA80A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PA_USE_COREAUDIO,PA_LITTLE_ENDIAN);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/os/unix,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations        -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = portaudio;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		94915B9894A64C7087C8B0E3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		97A1BF95F4734EC5BE5E66D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/infra/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-ftemplate-backtrace-limit=0    '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names   /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/Debug/liblibqio.a   /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portmidi/Debug/libportmidi.a -framework CoreFoundation -framework CoreAudio -framework CoreMIDI -framework Carbon /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio/Debug/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework Carbon -lm -lpthread";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = voca_pitch_detection;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9AA81A1D356C40079AE37894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/porttime,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG -Wno-deprecated-declarations  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = portmidi;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9C8477BA135C4E32B358FB30 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AD0CC78C4C404C21BC431EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B97FE9FEFBD7451EB1EBD78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PA_USE_COREAUDIO,PA_LITTLE_ENDIAN);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/common,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/src/os/unix,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = portaudio;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C16B9A9760A04DC589D7F161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C381F7B021C74E5F8FA6FDE8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E21A8447D6F8475A977B9C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F71DCC439D554837A1FBB4D2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_common,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/porttime,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portmidi/pm_mac);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations        -DNDEBUG -Wno-deprecated-declarations  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = portmidi;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portmidi;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FB76822B47F841B486612A00 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FB9A1AEE79B341DFBAC85ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_lib/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/infra/include,/Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/q_io/external/portaudio/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-ftemplate-backtrace-limit=0     -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names   /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/Release/liblibqio.a   /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portmidi/Release/libportmidi.a -framework CoreFoundation -framework CoreAudio -framework CoreMIDI -framework Carbon /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/q_io/external/portaudio/Release/libportaudio.a -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework Carbon -lm -lpthread";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = voca_pitch_detection;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/stuart/Documents/Projects/Atlas/AudioLibraries/VocaPitchDetection/build/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1423EB119AF04E1DB5681CD0 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0CC78C4C404C21BC431EC9 /* Debug */,
+				17A338AD09CD4940BBE5AAA5 /* Release */,
+				9C8477BA135C4E32B358FB30 /* MinSizeRel */,
+				1B7F2193B1EF4E8C9B2F8BE5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1F67BEF42CFD4100B715B7B5 /* Build configuration list for PBXNativeTarget "portmidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CBFE9937A148F1B5DAF5C7 /* Debug */,
+				9AA81A1D356C40079AE37894 /* Release */,
+				02D5BABCC249477A90FEEB8F /* MinSizeRel */,
+				F71DCC439D554837A1FBB4D2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2AD2DFF3218D443CAF6FE0D7 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2E7D38E5004721B7D790BB /* Debug */,
+				C16B9A9760A04DC589D7F161 /* Release */,
+				0932138A218B48AA92003E5C /* MinSizeRel */,
+				5FD4645D4A754014AE2419FD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		821DE7BB6363480589BFC0F2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB591913AEB4551881FE9ED /* Debug */,
+				E21A8447D6F8475A977B9C1C /* Release */,
+				FB76822B47F841B486612A00 /* MinSizeRel */,
+				5D7FD4E18068478FB2C88219 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A1AF8502327463BA57E6A12 /* Build configuration list for PBXNativeTarget "portaudio_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97FE9FEFBD7451EB1EBD78E /* Debug */,
+				0218CF8CAAFD41B6B15BD9EB /* Release */,
+				653E31158AA14D468134B7DA /* MinSizeRel */,
+				92D0FF44E77C43FFA80EA80A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AF2F1E92F6FC44BEBBB8AC49 /* Build configuration list for PBXNativeTarget "libqio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3637E405604B7FB36CDA44 /* Debug */,
+				237B81BE005F4DD893967F8F /* Release */,
+				37F85CCF379B4905B0DCCFFB /* MinSizeRel */,
+				1C4F158EB9E04559BD03D889 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B6589B9C727E4BA391788BE4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B205F8D48F4C98A10CB5AA /* Debug */,
+				155A4D0624F24A30A73C9DFD /* Release */,
+				C381F7B021C74E5F8FA6FDE8 /* MinSizeRel */,
+				57FDEE3E2DB74DA19DF18B83 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C5332D7F007B42698945D46E /* Build configuration list for PBXNativeTarget "voca_pitch_detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A1BF95F4734EC5BE5E66D0 /* Debug */,
+				FB9A1AEE79B341DFBAC85ED9 /* Release */,
+				0A9F4FE81057439780756310 /* MinSizeRel */,
+				2A68CB2AF7D846E192BB463D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE363C5F808548398CE3D742 /* Build configuration list for PBXProject "Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A51F268C26F45AEAE659C29 /* Debug */,
+				005E7A17D76747D4A3857EF2 /* Release */,
+				1E4ABE9FEB1C480A910D2ABD /* MinSizeRel */,
+				94915B9894A64C7087C8B0E3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8AE593A596447C8B025F583 /* Project object */;
+}
